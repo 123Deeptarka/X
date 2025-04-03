@@ -72,7 +72,7 @@ print("The R2 value for Test Set for LR is :",r2_score(y_pred,y_test))
 print("The R2 value for Train Set for LR is :",r2_score(y_pred_train,y_train))
 
 def user_input_features():
-    D=st.sidebar.number_input("D",value=700.000,format="%.3f")
+    D=st.sidebar.number_input("D",value=1400.000,format="%.3f")
     LD =st.sidebar.number_input("L/D",value=3.500,format="%.3f")   
     fc =st.sidebar.number_input("fc",value=45.000,format="%.3f")
     fyl =st.sidebar.number_input("fyl",value=450.000,format="%.3f")
